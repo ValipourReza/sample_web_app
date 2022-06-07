@@ -4,6 +4,7 @@ public class PersonBean {
     private String firstName = "";
     private String lastName = "";
     private String fatherName = "";
+    private String motherName = "";
 
     public String getFirstName() {
         return firstName;
@@ -28,4 +29,13 @@ public class PersonBean {
     public void setFatherName(String fatherName) {
         this.fatherName = fatherName;
     }
+    public String getMotherName() {
+        return motherName;
+    }
+
+    public void setMotherName(String motherName) {
+        this.motherName = motherName;
+    }
+    
+    
 }
